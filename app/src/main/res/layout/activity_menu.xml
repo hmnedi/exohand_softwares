@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imag" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="205dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="64dp"
+        android:onClick="playbtn"
+        android:text="play"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnConnection"
+        android:layout_width="133dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="64dp"
+        android:onClick="check_connection"
+        android:text="check connection"
+        app:layout_constraintEnd_toEndOf="@+id/btnPlay"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/btnPlay"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
+
+    <TextView
+        android:id="@+id/txtConnectionStatus"
+        android:layout_width="319dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/greetings"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnConnection"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/btnConnection"
+        app:layout_constraintTop_toBottomOf="@+id/btnConnection"
+        app:layout_constraintVertical_bias="0.522" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

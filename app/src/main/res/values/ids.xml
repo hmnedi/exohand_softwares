@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnNewPattern" type="id" />
+    <item name="btnStartAction" type="id" />
+    <item name="btnTryYpurself" type="id" />
+    <item name="textView2" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="imgFinO1" type="id" />
+    <item name="imgFinO2" type="id" />
+    <item name="imgFinO3" type="id" />
+    <item name="imgFinO4" type="id" />
+    <item name="imgFinC1" type="id" />
+    <item name="imgFinC2" type="id" />
+    <item name="imgFinC3" type="id" />
+    <item name="imgFinC4" type="id" />
+    <item name="txtStatus" type="id" />
+</resources>

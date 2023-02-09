@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">handyman</string>
+    <string name="greetings">greetings, you will be using the random pattern generator to do exercises
+        and using the tracker on the glove see how good you did the exercise.
+        the glove moves your fingers towards the right direction and after a pause,
+        you can repeat the movement.
+        in the future versions there would be a panel for analytic side of the exercise.</string>
+</resources>
